@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">MuzicApp</string>
+
+    <!-- Activity Titles-->
+    <string name="main_activity_title">Welcome To MuzicApp</string>
+    <string name="now_playing_activity_title">Now Playing</string>
+    <string name="store_activity_title">Store</string>
+    <string name="songs_detail_activity_title">Song\'s Detail</string>
+    <string name="search_activity_title">Search</string>
+    <string name="payment_activity_title">Payments</string>
+
+    <!-- Activity Descriptions-->
+    <string name="main_activity_desc">This is the Welcome Screen of app showing list of recent songs which you can play.</string>
+    <string name="now_playing_activity_desc">This Screen will play the selected song and also provide some of its details.</string>
+    <string name="store_activity_desc">This Screen shows the list of songs available in the Store which you may buy.</string>
+    <string name="songs_detail_activity_desc">This Screen shows the full detail of the song.</string>
+    <string name="search_activity_desc">This Screen will let you search song by name from the list of songs available in the Store.</string>
+    <string name="payment_activity_desc">This Screen will let you make payment of the song you want to buy using Google Payment API.</string>
+
+    <!--For MainActivity-->
+    <string name="main_activity_songs_header">Recent Songs</string>
+
+    <!--Details of Five Songs only-->
+    <!--Song 1 Details-->
+    <string name="song1_name">Prequel</string>
+    <string name="song1_artist_name">Frith</string>
+    <string name="song1_album_name">ChilledCow</string>
+    <string name="song1_length">2:13</string>
+    <string name="song1_playlist">Lofi Hip Hop</string>
+
+    <!--Song 2 Details-->
+    <string name="song2_name">Gypsy</string>
+    <string name="song2_artist_name">Orca Vibes</string>
+    <string name="song2_album_name">ChilledCow</string>
+    <string name="song2_length">1:47</string>
+    <string name="song2_playlist">Lofi Hip Hop</string>
+
+    <!--Song 3 Details-->
+    <string name="song3_name">Daylight</string>
+    <string name="song3_artist_name">Mattdeguia</string>
+    <string name="song3_album_name">ChilledCow</string>
+    <string name="song3_length">2:58</string>
+    <string name="song3_playlist">Lofi Hip Hop</string>
+
+    <!--Song 4 Details-->
+    <string name="song4_name">Right Now</string>
+    <string name="song4_artist_name">Through and Through</string>
+    <string name="song4_album_name">ChilledCow</string>
+    <string name="song4_length">2:01</string>
+    <string name="song4_playlist">Lofi Hip Hop</string>
+
+    <!--Song 5 Details-->
+    <string name="song5_name">Nature</string>
+    <string name="song5_artist_name">Logic Levls</string>
+    <string name="song5_album_name">Feardog</string>
+    <string name="song5_length">1:46</string>
+    <string name="song5_playlist">Lofi Hip Hop</string>
+
+    <!--Details 20 Songs only for Store or Search-->
+    <!--Song 1 Details-->
+    <string name="ss_song1_name">Wonderful Life</string>
+    <string name="ss_song1_album_name">Feardog</string>
+    <!--Song 2 Details-->
+    <string name="ss_song2_name">Overlord</string>
+    <string name="ss_song2_album_name">Feardog</string>
+    <!--Song 3 Details-->
+    <string name="ss_song3_name">Grape Soda</string>
+    <string name="ss_song3_album_name">Feardog</string>
+    <!--Song 4 Details-->
+    <string name="ss_song4_name">Ice Tea</string>
+    <string name="ss_song4_album_name">Fantastic Music</string>
+    <!--Song 5 Details-->
+    <string name="ss_song5_name">Made in Norway</string>
+    <string name="ss_song5_album_name">Feardog</string>
+    <!--Song 6 Details-->
+    <string name="ss_song6_name">After Rain</string>
+    <string name="ss_song6_album_name">Ambition</string>
+    <!--Song 7 Details-->
+    <string name="ss_song7_name">Sagittarius</string>
+    <string name="ss_song7_album_name">MrSuicideSheep</string>
+    <!--Song 8 Details-->
+    <string name="ss_song8_name">3:00 AM</string>
+    <string name="ss_song8_album_name">MrSuicideSheep</string>
+    <!--Song 9 Details-->
+    <string name="ss_song9_name">Thinkin Bout Myself</string>
+    <string name="ss_song9_album_name">MrSuicideSheep</string>
+    <!--Song 10 Details-->
+    <string name="ss_song10_name">Aint That Why</string>
+    <string name="ss_song10_album_name">Trap Nation</string>
+    <!--Song 11 Details-->
+    <string name="ss_song11_name">Don\'t Let Me Down</string>
+    <string name="ss_song11_album_name">Trap Nation</string>
+    <!--Song 12 Details-->
+    <string name="ss_song12_name">Rockstar ft. 21 Savage</string>
+    <string name="ss_song12_album_name">Rockstar</string>
+    <!--Song 13 Details-->
+    <string name="ss_song13_name">The Beautiful  Damned ft. Zoe Nash</string>
+    <string name="ss_song13_album_name">The Beautiful and Damned</string>
+    <!--Song 14 Details-->
+    <string name="ss_song14_name">Hardcore</string>
+    <string name="ss_song14_album_name">PHAZZ</string>
+    <!--Song 15 Details+                                                                                                                                                                                                                                                                                                                                                                                -->
+    <string name="ss_song15_name">X2C</string>
+    <string name="ss_song15_album_name">TroyBoi</string>
+    <!--Song 16 Details-->
+    <string name="ss_song16_name">Assassin</string>
+    <string name="ss_song16_album_name">Bass Nation</string>
+    <!--Song 17 Details-->
+    <string name="ss_song17_name">Lost Path</string>
+    <string name="ss_song17_album_name">Bass Nation</string>
+    <!--Song 18 Details-->
+    <string name="ss_song18_name">Murder</string>
+    <string name="ss_song18_album_name">Bass Nation</string>
+    <!--Song 19 Details-->
+    <string name="ss_song19_name">Holy</string>
+    <string name="ss_song19_album_name">Super Bass</string>
+    <!--Song 20 Details-->
+    <string name="ss_song20_name">Stradeus</string>
+    <string name="ss_song20_album_name">Super Bass</string>
+
+    <!--Button Texts-->
+    <string name="home_button_text">Home</string>
+    <string name="play_button_text">Play</string>
+    <string name="detail_button_text">Details</string>
+    <string name="search_button_text">Search</string>
+    <string name="store_button_text">Store</string>
+    <string name="buy_button_text">Buy</string>
+
+    <!--Songs Header Text-->
+    <string name="song_name_text">Song Name</string>
+    <string name="album_name_text">Album Name</string>
+    <string name="artist_name_text">Artist Name</string>
+    <string name="song_length_text">Song Length</string>
+    <string name="song_playlist_text">Playlist</string>
+    <string name="textview_name">TextView</string>
+    <string name="image_content_desc">Muzic Image</string>
+    <string name="search_song_query_hint">Search Your Song Here</string>
+
+    <!--Payment Activity Texts-->
+    <string name="payment_activity_textview1">API to be used – Google Play in-app billing service.Since the app is designed to sell digital goods Songs we will have to use in-app billing API.For this we will use Google Play service that lets us sell digital content from inside our applications.</string>
+    <string name="payment_activity_textview2">In app this Screen will show the amount to be payable for buying the song.It will then redirect to Google Play Service to accept card details etc. and then accept payment from the user.</string>
+
+</resources>

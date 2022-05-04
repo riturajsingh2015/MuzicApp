@@ -1,2 +1,1 @@
 # MuzicApp
-MuzicApp

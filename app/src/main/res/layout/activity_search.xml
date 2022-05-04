@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.riturajsingh.muzicapp.SearchActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activityTitleHeader"
+        android:padding="8dp"
+        android:text="@string/search_activity_title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activityDescTextViewBackColor"
+        android:padding="8dp"
+        android:text="@string/search_activity_desc"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+
+    <SearchView
+        android:id="@+id/search_activity_searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/searchViewBackColor"
+        android:iconifiedByDefault="false"
+        android:inputType="text|textNoSuggestions"
+        android:queryHint="@string/search_song_query_hint" />
+
+    <Button
+        android:id="@+id/search_home_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/home_button_text" />
+
+    <ListView
+        android:id="@+id/search_activity_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+
+</LinearLayout>

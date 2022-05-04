@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.riturajsingh.muzicapp.StoreActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activityTitleHeader"
+        android:padding="8dp"
+        android:text="@string/store_activity_title"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/activityDescTextViewBackColor"
+        android:padding="8dp"
+        android:text="@string/store_activity_desc"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <ListView
+        android:id="@+id/store_activity_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"></ListView>
+</LinearLayout>
